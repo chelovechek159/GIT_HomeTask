@@ -1,0 +1,14 @@
+Bug Report structure
+ID:
+Summary:
+Steps to reproduce:
+ER:
+AR:
+Link:
+Reproducibility:
+Secerity:
+Priority:
+Symptom:
+Workaround:
+Attachements:
+Build:

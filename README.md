@@ -1,6 +1,6 @@
 # GIT_HomeTask2
 
-#### 1. На локальном репозитории сделать ветки для:
+#### 1. On the local repository, make branches for:
 + **Postman** 
 + **Jmeter**
 + **CheckLists**
@@ -19,7 +19,7 @@
     
  
 
-#### 2. Запушить все ветки на внешний репозиторий
+#### 2. Push all branches to an external repository
 
     git push -u origin Postman
     git push -u origin Jmeter
@@ -29,41 +29,41 @@
     git push -u origin Charles
     git push -u origin Mobile_Testing
 
-#### 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+#### 3. In the `Bug Reports` branch, make a text document with the structure of a bug report
     git checkout Bug_reports    
     cat > Bug_report.txt ---> BR Structure ---> control + c    
 
-#### 4. Запушить структуру багрепорта на внешний репозиторий
+#### 4. Push the `bug report structure` to an external repository
     git add .
     git commit -m 'text'
     git push
-#### 5. Вмержить ветку Bag Reports в Main
+#### 5. Merge the `Bug Reports` branch into `Main`
 
     git checkout main
     git merge Bug_reports
 
 
-#### 6. Запушить main на внешний репозиторий.
+#### 6. Push `main` to external repository
 
     git push
 
-#### 7. В ветке CheckLists набросать структуру чек листа.
+#### 7. In the `CheckLists` branch, write the structure of the checklist
 
     git checkout CheckLists
     cat > checklist.txt
 
 
-#### 8. Запушить структуру на внешний репозиторий
+#### 8. Push structure to external repository
 
     git add .
     git commit -m "text"
     git push
 
-#### 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+#### 9. On an external repository, make a Pull Request of the `CheckLists` branch in `main`
 
     Compare & pull request ---> create pull request ---> Merge pull request ---> confirm merge
 
-#### 10. Синхронизировать Внешнюю и Локальную ветки Main
+#### 10. Synchronize External and Local branches `main`
 
     git checkout main
     git pull

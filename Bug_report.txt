@@ -6,7 +6,7 @@ ER:
 AR:
 Link:
 Reproducibility:
-Secerity:
+Severity:
 Priority:
 Symptom:
 Workaround:
